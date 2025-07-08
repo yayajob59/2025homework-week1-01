@@ -1,0 +1,164 @@
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Noto Sans TC', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #212529;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li {
+    font-family: Noto Sans TC;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 5%;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.ulset-disc li {
+    list-style-type: disc;
+}
+
+.ulset-border li {
+    list-style-type: none;
+    border-left: 3px solid #DEE2E6;
+    padding-left: 8px;
+}
+
+.ulset-icon li {
+    list-style-type: '↗ ';
+    list-style-type: ;
+    padding-left: 2px;
+    color: #57A203;
+}
+
+.ulset-icon li span {
+    text-decoration: underline;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.header {
+
+    max-height: 400px;
+    width: 100%;
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/e1ad10bd2260f80c5f65be5bfc5042790a261115/2025-week1/hero.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 151px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 5%;
+    text-align: center;
+    display: block;
+}
+
+.header h3 {
+    display: block;
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    line-height:1.2;
+    letter-spacing: 5%;
+}
+
+.main {
+    padding: 64px 0;
+
+}
+
+.info {
+    width: 100%;
+    background: #F5FEE7;
+    padding: 32px;
+    margin: 64px auto;
+    text-align: center;
+
+}
+
+.image-box {
+    max-width: 1076px;
+    margin: 0 auto;
+    display: block
+}
+
+
+h4 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 5%;
+}
+
+h5 {
+    font-family: Noto Sans TC;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 5%;
+    color: #57A203;
+    margin-top: 0;
+}
+
+.hr {
+    margin: 20px auto;
+    border: 1px solid #DEE2E6;
+}
+
+
+.footer {
+    background-color: #F8F9FA;
+    text-align: center;
+    color: #6C757D;
+    padding: 64px 0;
+
+
+}
+
+.footer span {
+    display: block;
+}
